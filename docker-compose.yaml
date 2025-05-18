@@ -1,0 +1,7 @@
+services:
+  image-server:
+    build: ./src/image-server
+    ports:
+      - "5172:80"
+    volumes:
+      - ./images:/usr/share/nginx/html/images:ro
