@@ -7,6 +7,25 @@
 [PowerPoint-Folien](https://thkoelnde-my.sharepoint.com/:p:/g/personal/finn_wehn_smail_th-koeln_de/EQYpl7o6XMJMp4_0D4r4CAABavcYXY7XwfpnSwZ9omys6Q?e=1lwL5b)  
 [ImageMagick](https://imagemagick.org/script/magick.php)  
 
+
+#### Docker
+
+```bash
+docker compose up -d --build
+docker exec -it <COntainer-Name> /bin/bash
+```
+
+#### ImageMagick
+
+```bash
+convert <Input-File> [<Options>] <Output-File>
+```
+
+Options:
+- ```-quality <Wert>```
+- ```-interlace Plane```: Um Baseline JPEGs in Progressive JPEGs zu konvertieren
+- ```-resize <Width>x<Height>```: Um Bilder zu skalieren
+
 #### Shell-Template
 
 ```bash
